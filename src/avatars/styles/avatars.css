@@ -1,0 +1,55 @@
+/* 화면 가운데 정렬 */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 리스트 배치 */
+.avatar-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* 아바타 박스 */
+.avatar {
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+/* 이미지 원형 처리 */
+.avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* 상태 점 (공통) */
+.avatar::after {
+  content: '';
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+/* 온라인 */
+.avatar.online::after {
+  background-color: #2ecc71;
+}
+
+/* 오프라인 */
+.avatar.offline::after {
+  background-color: #ccc;
+}
