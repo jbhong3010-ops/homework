@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>NAVER 로그인</title>
+    <link rel="stylesheet" href="./styles/login.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="logo">
+        <svg width="230" height="44" viewBox="0 0 230 44" xmlns="http://www.w3.org/2000/svg" aria-label="네이버" role="img">
+          <path d="M30.0764 23.5394L13.6301 0H0V43.9824H14.279V20.443L30.7252 43.9824H44.3554V0H30.0764V23.5394Z" fill="#03CF5D" />
+          <path d="M66.2086 0L48.8973 43.9824H63.6132L65.701 38.1767H82.2929L84.3851 44H99.0967L81.7853 0.0175967L66.2086 0Z" fill="#03CF5D" />
+          <path d="M116.624 28.9184L106.234 0H91.5224L108.834 43.9824H124.41L141.722 0H127.006L116.624 28.9184Z" fill="#03CF5D" />
+          <path d="M160.326 27.2735H180.449V16.7089H160.326V10.7801H180.666V0H146.264V43.9824H181.098V33.2023H160.326V27.2735Z" fill="#03CF5D" />
+          <path d="M218.842 28.8921L220.166 28.3335C225.295 26.1959 227.903 21.5646 227.903 15.6885C227.903 10.1335 225.869 6.0124 221.861 3.47461C218.131 1.10396 213.298 0 206.642 0H188.024V43.9824H201.87V31.6937H206.849L215.284 43.9824H230L218.842 28.8921Z" fill="#03CF5D" />
+        </svg>
+      </h1>
+    </header>
+
+    <main class="container">
+      <form class="login-form">
+        <div class="field">
+          <label for="user-id">아이디</label>
+          <input id="user-id" type="text" required aria-required="true" />
+        </div>
+
+        <div class="field">
+          <label for="user-pw">비밀번호</label>
+          <input id="user-pw" type="password" required aria-required="true" />
+        </div>
+
+        <button type="submit" class="login-btn">로그인</button>
+
+        <div class="options">
+          <label class="checkbox">
+            <input type="checkbox" />
+            <span class="icon"></span>
+            로그인 상태 유지
+          </label>
+
+          <label class="ip-toggle">
+            <input type="checkbox" />
+            <span class="switch"></span>
+            <a href="pages/ip_secruity.html" target="_blank" rel="noopener noreferrer"> IP 보안 </a>
+          </label>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
