@@ -14,7 +14,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
-/* ipad pro - Grid */
+/* ipad pro 레이아웃*/
 .ipad {
   min-height: 100vh;
   align-content: start;
@@ -90,7 +90,7 @@ body {
   max-width: 1024px;
 }
 
-/* Air 레이아웃 - Grid */
+/* Air 레이아웃 */
 .ipad {
   min-height: 100vh;
   align-content: start;
@@ -168,7 +168,7 @@ body {
   max-width: 1024px;
 }
 
-/* iphone 15 pro 레이아웃 - Grid */
+/* iphone 15pro 레이아웃  */
 .ipad {
   min-height: 100vh;
   align-content: start;
@@ -246,7 +246,7 @@ body {
   max-width: 1024px;
 }
 
-/* iphone 15 */
+/* iphone 15 레이아웃*/
 
 .ipad {
   min-height: 100vh;
